@@ -9,7 +9,6 @@
     "files.autoSave": "afterDelay",
     "files.eol": "\r\n",
 
-
     "editor.renderWhitespace": "all",
     "editor.bracketPairColorization.enabled": true,
     "editor.codeLensFontFamily": "Fira Code",
