@@ -1,30 +1,39 @@
 {
-    "editor.suggestSelection": "first",
-    "editor.fontFamily": "Fira code",
-    "editor.fontLigatures": true,
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.tree.indent": 10,
 
-    "workbench.colorTheme": "One Dark Pro",
-    "workbench.iconTheme": "material-icon-theme",
+  "files.autoSave": "afterDelay",
+  "files.eol": "\n",
 
-    "files.autoSave": "afterDelay",
-    "files.eol": "\r\n",
+  "editor.suggestSelection": "first",
+  "editor.fontFamily": "Fira code",
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "all",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeLensFontFamily": "Fira Code",
+  "editor.lineHeight": 0,
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.hover.delay": 200,
+  "editor.smoothScrolling": true,
+  "editor.tabCompletion": "on",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
 
-    "editor.renderWhitespace": "all",
-    "editor.bracketPairColorization.enabled": true,
-    "editor.codeLensFontFamily": "Fira Code",
-    "editor.copyWithSyntaxHighlighting": false,
-    "editor.hover.delay": 200,
-    "editor.smoothScrolling": true,
-    "editor.tabCompletion": "on",
-    "editor.cursorSmoothCaretAnimation": true,
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "cSpell.userWords": [
-        "Parens"
-    ],
-    "terminal.integrated.defaultProfile.windows": "Git Bash"
+  "prettier.arrowParens": "avoid",
+  "prettier.singleQuote": true,
+
+  "eslint.validate": ["javascript"],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "cSpell.userWords": ["emerg", "markovesovic", "nums", "Parens"],
+
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
 }
